@@ -27,14 +27,20 @@ main {
 
 
 .search-box-2 .search-bar-2 {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
   border: 3px solid rgb(19, 153, 194);
   transform: rotate(-45deg);
   text-align: center;
+  margin-top: 2%;
   background-color: rgba(255, 255, 255, 0.5);
   box-shadow: 0px 5px rgba(0,0,0, 0.2);
+  float: right;  
+    z-index: 3;
+    position: absolute; /*newly added*/
+    left: 5px; /*newly added*/
+    top: 20px;/*newly added*/
   color: #313131;
 }.search-box-2 .search-bar-2:focus{
   background-color: rgba(255, 255, 255, 0.75);
@@ -182,7 +188,3 @@ main {
 }
 
 
-/* 
- 
-  ((weather.weather[0].icon === "50n")) ? "mist" : "invis " ): "invis"}></div>
-</div> */ 
