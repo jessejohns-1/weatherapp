@@ -72,7 +72,7 @@ function App() {
         <div className="search-box-2">
 
           <input
-            type="text"
+            type="number"
             className="search-bar-2"
             placeholder="Insert ZipCode"
             onChange={(e) => setzip(e.target.value.trim())}
