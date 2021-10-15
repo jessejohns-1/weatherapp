@@ -94,46 +94,64 @@ main {
 .dclear {
   height: 10vh;
   width:100px;
+  background:rgb(0, 110, 255);
+  border-radius:15px 50px 50px;
   background-image: url(http://openweathermap.org/img/wn/01d@2x.png);
 }
 .dfew{
   height: 10vh;
   width:100px;
+  background:rgb(0, 110, 255);
+  border-radius:15px 50px 50px;
   background-image: url(http://openweathermap.org/img/wn/02d@2x.png);
 }
 .dclouds {
   height: 10vh;
   width:100px;
+  background:rgb(0, 110, 255);
+  border-radius:15px 50px 50px;
   background-image: url(http://openweathermap.org/img/wn/03d@2x.png);
 }
 .dbroken {
   height: 10vh;
   width:100px;
+  background:rgb(0, 110, 255);
+  border-radius:15px 50px 50px;
   background-image: url(http://openweathermap.org/img/wn/04d@2x.png);
 }
 .dshower {
   height: 10vh;
   width:100px;
+  background:rgb(0, 110, 255);
+  border-radius:15px 50px 50px;
   background-image: url(http://openweathermap.org/img/wn/09d@2x.png);
 }
 .drain {
   height: 10vh;
   width:100px;
+  background:rgb(0, 110, 255);
+  border-radius:15px 50px 50px;
   background-image: url(http://openweathermap.org/img/wn/10d@2x.png);
 }
 .dthunder {
   height: 10vh;
   width:100px;
+  background:rgb(0, 110, 255);
+  border-radius:15px 50px 50px;
   background-image: url(http://openweathermap.org/img/wn/11d@2x.png);
 }
 .dsnow {
     height: 10vh;
     width:100px;
+    background:rgb(0, 110, 255);
+    border-radius:15px 50px 50px;
     background-image: url(http://openweathermap.org/img/wn/09d@2x.png);
 }
 .dmist{
   height: 10vh;
     width:100px;
+    background:rgb(0, 110, 255);
+    border-radius:15px 50px 50px;
     background-image: url(http://openweathermap.org/img/wn/50d@2x.png);
 }
 
@@ -144,46 +162,65 @@ main {
 .nclear {
   height: 10vh;
   width:100px;
+  background:rgb(0, 110, 255);
+  align-items: center;
+  border-radius:15px 50px 50px;
   background-image: url(http://openweathermap.org/img/wn/01n@2x.png);
 }
 .nfew{
   height: 10vh;
   width:100px;
+  background:rgb(0, 110, 255);
+  border-radius:15px 50px 50px;
   background-image: url(http://openweathermap.org/img/wn/02n@2x.png);
 }
 .nclouds {
   height: 10vh;
   width:100px;
+  background:rgb(0, 110, 255);
+  border-radius:15px 50px 50px;
   background-image: url(http://openweathermap.org/img/wn/03n@2x.png);
 }
 .nbroken {
   height: 10vh;
   width:100px;
+  background:rgb(0, 110, 255);
+  border-radius:15px 50px 50px;
   background-image: url(http://openweathermap.org/img/wn/04n@2x.png);
 }
 .nshower {
   height: 10vh;
   width:100px;
+  background:rgb(0, 110, 255);
+  border-radius:15px 50px 50px;
   background-image: url(http://openweathermap.org/img/wn/09n@2x.png);
 }
 .nrain {
   height: 10vh;
   width:100px;
+  background:rgb(0, 110, 255);
+  border-radius:15px 50px 50px;
   background-image: url(http://openweathermap.org/img/wn/10n@2x.png);
 }
 .nthunder {
   height: 10vh;
   width:100px;
+  background:rgb(0, 110, 255);
+  border-radius:15px 50px 50px;
   background-image: url(http://openweathermap.org/img/wn/11n@2x.png);
 }
 .nsnow {
     height: 10vh;
     width:100px;
+    background:rgb(0, 110, 255);
+    border-radius:15px 50px 50px;
     background-image: url(http://openweathermap.org/img/wn/09n@2x.png);
 }
 .nmist{
   height: 10vh;
     width:100px;
+    background:rgb(0, 110, 255);
+    border-radius:15px 50px 50px;
     background-image: url(http://openweathermap.org/img/wn/50n@2x.png);
 }
 

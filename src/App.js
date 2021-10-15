@@ -75,7 +75,7 @@ function App() {
             type="text"
             className="search-bar-2"
             placeholder="Insert ZipCode"
-            onChange={(e) => setzip(e.target.value)}
+            onChange={(e) => setzip(e.target.value.trim())}
             value={zip}
             onKeyPress={zipSearch}
           />
