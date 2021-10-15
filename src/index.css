@@ -24,26 +24,19 @@ main {
   padding: 25px;
 }
 
-.search-box{
-  width:100%;
-  margin: 0 0 75px;
-}
 
-.search-box .search-bar {
-  display:block;
-  width: 100%;
-  padding: 15px;
-  appearance: none;
-  background:none;
-  border: none;
-  outline: none;
 
+.search-box-2 .search-bar-2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+  border: 3px solid rgb(19, 153, 194);
+  transform: rotate(-45deg);
+  text-align: center;
   background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 0px 0px 16px 16px;
-  margin-top: -25px;
   box-shadow: 0px 5px rgba(0,0,0, 0.2);
   color: #313131;
-}.search-box .search-bar:focus{
+}.search-box-2 .search-bar-2:focus{
   background-color: rgba(255, 255, 255, 0.75);
 }
 

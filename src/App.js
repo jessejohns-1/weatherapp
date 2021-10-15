@@ -7,6 +7,7 @@ const api = {
 };
 function App() {
   const [query, setQuery] = useState("");
+  const [zip, setzip] = useState("");
   const [weather, setWeather] = useState({});
 
   const search = (evt) => {
@@ -20,7 +21,20 @@ function App() {
         });
     }
   };
+  const zipSearch = (evt) => {
+    if (evt.key === "Enter") {
+      fetch(`${api.base}weather?zip=${zip}&units=imperial&APPID=${api.key}`)
+        .then((res) => res.json())
+        .then((result) => {
+          setWeather(result);
+          setQuery("");
+          console.log(result);
+        });
+    }
+  };
 
+
+  
   const datebuilder = (d) => {
     let months = [
       "January",
@@ -65,14 +79,15 @@ function App() {
       }
     >
       <main>
-        <div className="search-box">
+        <div className="search-box-2">
+
           <input
             type="text"
-            className="search-bar"
-            placeholder="input a city"
-            onChange={(e) => setQuery(e.target.value)}
-            value={query}
-            onKeyPress={search}
+            className="search-bar-2"
+            placeholder="Insert ZipCode"
+            onChange={(e) => setzip(e.target.value)}
+            value={zip}
+            onKeyPress={zipSearch}
           />
         </div>
         {typeof weather.main != "undefined" ? (
