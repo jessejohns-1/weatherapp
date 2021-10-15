@@ -6,19 +6,18 @@ const api = {
   base: "https://api.openweathermap.org/data/2.5/",
 };
 function App() {
-  const [query, setQuery] = useState("");
   const [zip, setzip] = useState("");
   const [weather, setWeather] = useState({});
 
 
-  };
+  
   const zipSearch = (evt) => {
     if (evt.key === "Enter") {
       fetch(`${api.base}weather?zip=${zip}&units=imperial&APPID=${api.key}`)
         .then((res) => res.json())
         .then((result) => {
           setWeather(result);
-          setQuery("");
+          setzip("");
           console.log(result);
         });
     }
